@@ -1,6 +1,0 @@
----
-- name: Ensure Apache installation
-  hosts: all
-
-  roles:
-    - role_apache
