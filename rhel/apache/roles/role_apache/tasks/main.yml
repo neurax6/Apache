@@ -40,3 +40,9 @@
     src: index.html.j2
     dest: /var/www/html/index.html
   notify: apache-restart
+
+- name: Execute the df command
+  register: dfout
+  command: "chmod -R 775 /var/www/html/"
+
+  
