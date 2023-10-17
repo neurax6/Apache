@@ -41,6 +41,12 @@
     dest: /var/www/html/index.html
   notify: apache-restart
 
+- name: Copy picture
+  copy:
+    src: 1.jpg
+    dest: /var/www/html/
+  notify: apache-restart
+
 - name: Execute the df command
   register: dfout
   command: "chmod -R 775 /var/www/html/"

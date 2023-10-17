@@ -3,9 +3,5 @@
 <h1>Apache is running fine</h1>
 <h1>This is survey field "First Line": {{ first_line }} </h1>
 <h1>This is survey field "Second Line": {{ second_line }}</h1>
-<picture>
-    <img src="1.jpg" alt="Doge" style="width:auto;">
-  </picture>
-  
 </body>
 </html>
